@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Form</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" 
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+        <script src="Bootstrap.js"></script>
+    </head>
+    <body style="background-color: lightcoral;">
+        <h1>Admission</h1>
+        <p>Pick The Grade You Are Applying For:</p>
+        <select class="form-select" aria-label="Default select example">
+            <option selected>Open this select menu</option>
+            <option value="1">KG 1</option>
+            <option value="2">KG 2</option>
+            <option value="3">Grade 1</option>
+            <option value="4">Grade 2</option>
+            <option value="5">Grade 3</option>
+            <option value="6">Grade 4</option>
+            <option value="7">Grade 5</option>
+            <option value="8">Grade 6</option>
+            <option value="9">Grade 7</option>
+            <option value="10">Grade 8</option>
+            <option value="11">Grade 9</option>
+            <option value="12">Grade 10</option>
+        </select><br>
+
+        <h1>User Details</h1><br>
+        <form>
+            <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label">Username</label>
+                <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Username">
+                <label for="exampleFormControlInput1" class="form-label">Email address</label>
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                <label for="exampleFormControlInput1" class="form-label">Mobile Number</label>
+                <input type="number" class="form-control" id="exampleFormControlInput1" placeholder="123 456 7890">
+              </div>
+        
+        <div class="mb-3">
+            <label for="formFile" class="form-label">Upload Passport Soft Copy (Front)</label>
+            <input class="form-control" type="file" id="formFile">
+            <label for="formFile" class="form-label">Upload Passport Soft Copy (Back)</label>
+            <input class="form-control" type="file" id="formFile">
+            <label for="formFile" class="form-label">Upload Emirates ID Soft Copy (Front)</label>
+            <input class="form-control" type="file" id="formFile">
+            <label for="formFile" class="form-label">Upload Emirates ID Soft Copy (Back)</label>
+            <input class="form-control" type="file" id="formFile">
+        </div>
+
+        <div id="liveAlertPlaceholder"></div>
+            <button type="button" class="btn btn-success" id="liveAlertBtn">Submit</button>
+        </div>
+
+        </form>
+    </body>
+</html>
